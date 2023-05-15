@@ -17,7 +17,6 @@ import 'Models/IconPack.dart';
 class FlutterIconPicker {
   static Future<IconData?> showIconPicker(
     BuildContext context, {
-
     /// Defines if the searchbar will be
     /// shown above the icons
     bool showSearchBar = true,
@@ -71,7 +70,7 @@ class FlutterIconPicker {
     BoxConstraints? constraints,
 
     /// The title for the Picker.
-    /// Sits above the [SearchBar] and [Icons].
+    /// Sits above the [sb.SearchBar] and [Icons].
     /// Defaults to:
     /// ```dart
     ///   const Text('Pick an icon')
